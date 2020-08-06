@@ -1,8 +1,9 @@
-#Mini-Attention
+# Mini-Attention
 
 This library is an implementation of Heirarchical Attention Networks for Document Classification (Yang etal,2015).Link:[https://www.cs.cmu.edu/~./hovy/papers/16HLT-hierarchical-attention-networks.pdf0]. This is compatible with Keras and Tensorflow (keras version >=2.0.6). As the paper suggests, it uses hierarchical attention mechanism and capabilities of Word Encoder (including bi-directional Recurrent unit- GRU) ,Sentence Attention and Document Classification are addressed.
 
-##Usability
+## Usability
+
 The library or the Layer is compatible with Tensorflow and Keras. Installation is carried out using the pip command as follows:
 
 ```python
@@ -65,16 +66,16 @@ The arguments for the MiniAttentionBlock class include:
 
 There are 3 main functions inside the MiniAttentionBlock class. The "**init**" method is used for initializeing the weight , bias tensors for computation. The "attention_block" method is used for assigning the variables (tensors) and checking for the input tensor size. The "build_nomask" method is used for computing the attention modules.Uses tanh as the internal activation function with exponential normalization.Masking has not been added to the library yet.
 
-##Example
+## Example
 
 For reference on how to use the library, a Jupyter Notebook sample is present in the repository: "MiniAttention_on_IMDB.ipynb".
 
 This is a sample which uses this Layer with Keras.layers.Embedding() Layer in IMDB binary classification.It uses the default keras embedding which is followed from the official tutorial by Keras docs:https://keras.io/examples/nlp/bidirectional_lstm_imdb
 
-##Contributing
+## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-##License
+## License
 
 MIT
