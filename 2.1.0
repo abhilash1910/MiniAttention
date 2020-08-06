@@ -1,0 +1,3 @@
+Requirement already satisfied: bleach in g:\anaconda\lib\site-packages (1.5.0)
+Requirement already satisfied: html5lib!=0.9999,!=0.99999,<0.99999999,>=0.999 in g:\anaconda\lib\site-packages (from bleach) (0.9999999)
+Requirement already satisfied: six in g:\anaconda\lib\site-packages (from bleach) (1.14.0)
