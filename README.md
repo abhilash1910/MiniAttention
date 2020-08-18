@@ -7,6 +7,8 @@ This library is an implementation of Heirarchical Attention Networks for Documen
 ##Dependencies
 
 <a href="https://www.tensorflow.org/">Tensorflow</a>
+
+
 <a href="https://keras.io/">Keras</a>
 
 
