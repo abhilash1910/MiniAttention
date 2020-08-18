@@ -4,6 +4,12 @@
 
 This library is an implementation of Heirarchical Attention Networks for Document Classification (Yang etal,2015).Link:[https://www.cs.cmu.edu/~./hovy/papers/16HLT-hierarchical-attention-networks.pdf0]. This is compatible with Keras and Tensorflow (keras version >=2.0.6). As the paper suggests, it uses hierarchical attention mechanism and capabilities of Word Encoder (including bi-directional Recurrent unit- GRU) ,Sentence Attention and Document Classification are addressed.
 
+##Dependencies
+
+<a href="https://www.tensorflow.org/">Tensorflow</a>
+<a href="https://keras.io/">Keras</a>
+
+
 ## Usability
 
 The library or the Layer is compatible with Tensorflow and Keras. Installation is carried out using the pip command as follows:
